@@ -268,16 +268,7 @@ try {
             box-shadow: 0 20px 40px rgba(0,0,0,0.1);
             backdrop-filter: blur(10px);
         }
-        .hospital-logo {
-            width: 80px;
-            height: 80px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto 20px;
-        }
+        /* Logo styling moved to global stylesheet (assets/css/app.css) */
         .status-icon {
             width: 60px;
             height: 60px;
@@ -298,8 +289,8 @@ try {
         <div class="row justify-content-center">
             <div class="col-md-8 col-lg-6">
                 <div class="setup-card p-5">
-                    <div class="hospital-logo">
-                        <i class="fas fa-hospital text-white fa-2x"></i>
+                    <div class="text-center mb-3">
+                        <img src="assets/images/logo.jpeg" class="hospital-logo" alt="Hospital Logo">
                     </div>
                     <h2 class="text-center mb-2">Hospital Appraisal System</h2>
                     <h5 class="text-center text-muted mb-4">Database Setup</h5>

@@ -207,9 +207,13 @@ function formatDate($date, $format = 'F j, Y') {
  */
 function getStatusBadge($status) {
     $badges = [
+        'draft' => '<span class="badge bg-secondary">Draft</span>',
+        'planning' => '<span class="badge bg-info">Planning</span>',
+        'mid_review' => '<span class="badge bg-warning">Mid Review</span>',
+        'final_review' => '<span class="badge bg-primary">Final Review</span>',
+        'completed' => '<span class="badge bg-success">Completed</span>',
         'pending' => '<span class="badge bg-warning">Pending</span>',
         'in_progress' => '<span class="badge bg-info">In Progress</span>',
-        'completed' => '<span class="badge bg-success">Completed</span>',
         'approved' => '<span class="badge bg-primary">Approved</span>',
         'rejected' => '<span class="badge bg-danger">Rejected</span>'
     ];

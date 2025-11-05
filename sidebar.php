@@ -3,7 +3,7 @@
 ?>
 <div class="sidebar p-3">
     <div class="text-center mb-4">
-        <i class="fas fa-hospital fa-2x mb-2"></i>
+        <img src="assets/images/logo.png" alt="Hospital Logo" class="hospital-logo mb-2" />
         <h5>St. Mary's Hospital</h5>
         <small>Appraisal System</small>
     </div>

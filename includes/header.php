@@ -18,6 +18,8 @@ if (!isset($page_title)) {
     <!-- Project styles -->
     <link href="/has/HAS/sidebar.css" rel="stylesheet">
     <link href="/has/HAS/assets/css/app.css" rel="stylesheet">
+    <!-- Application logo/favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo.png" >
 </head>
 <body>
 <?php

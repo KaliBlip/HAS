@@ -27,6 +27,52 @@ body {
   color: #fff;
 }
 
+.hospital-logo {
+  width: 60px !important;
+  max-width: 60px !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 auto !important;
+  background-color: transparent;
+  border-radius: 50% !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  object-fit: contain !important;
+  object-position: center !important;
+}
+
+/* Sidebar specific logo styling */
+.sidebar .hospital-logo {
+  width: 60px !important;
+  max-width: 60px !important;
+  height: auto !important;
+  margin: 0 auto 1rem !important;
+  display: block !important;
+  border-radius: 50% !important;
+}
+
+/* If the image is used as a background, keep it contained */
+.hospital-logo.bg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hospital-logo,
+  .sidebar .hospital-logo { 
+    width: 50px !important; 
+    max-width: 50px !important;
+  }
+}
+@media (max-width: 480px) {
+  .hospital-logo,
+  .sidebar .hospital-logo { 
+    width: 45px !important; 
+    max-width: 45px !important;
+  }
+}
+
 .status-badge {
   padding: 6px 10px;
   border-radius: 999px;
@@ -38,3 +84,35 @@ body {
 
 /* Ensure table layout small fixes */
 table.table td, table.table th { vertical-align: middle; }
+
+/* Report card styles */
+.report-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e3eaf3;
+  margin-bottom: 1.5rem;
+}
+
+.report-header {
+  background: linear-gradient(90deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 12px 12px 0 0;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #e3eaf3;
+}
+
+.report-header h5 {
+  color: #2d3e50;
+  font-weight: 600;
+  margin: 0;
+}
+
+.progress-custom {
+  height: 8px;
+  border-radius: 4px;
+  background-color: #e9ecef;
+}
+
+.progress-custom .progress-bar {
+  border-radius: 4px;
+}

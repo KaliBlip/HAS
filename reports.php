@@ -229,13 +229,8 @@ include 'includes/header.php';
                                     <?php foreach ($rating_stats as $rating): ?>
                                     <div class="mb-3">
                                         <div class="d-flex justify-content-between align-items-center mb-1">
-                                            <div class="d-flex align-items-center">
-                                                <span class="rating-badge rating-<?php echo $rating['overall_rating']; ?> me-2">
-                                                    <?php echo $rating['overall_rating']; ?>
-                                                </span>
-                                                <span><?php echo $rating_labels[$rating['overall_rating']] ?? 'Unknown'; ?></span>
-                                            </div>
-                                            <span class="badge bg-secondary"><?php echo $rating['count']; ?> (<?php echo $rating['percentage']; ?>%)</span>
+                                            <span class="fw-bold"><?php echo $rating['overall_rating']; ?> <?php echo $rating_labels[$rating['overall_rating']] ?? 'Unknown'; ?></span>
+                                            <span class="badge bg-primary"><?php echo $rating['count']; ?> (<?php echo $rating['percentage']; ?>%)</span>
                                         </div>
                                         <div class="progress progress-custom">
                                             <div class="progress-bar bg-info" role="progressbar" style="width: <?php echo $rating['percentage']; ?>%"></div>
