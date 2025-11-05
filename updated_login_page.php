@@ -141,7 +141,7 @@ if (isLoggedIn() && !isset($_GET['logout'])) {
                         <i class="fas fa-hospital text-white fa-2x"></i>
                     </div>
                     <h2 class="text-center mb-4">Hospital Appraisal System</h2>
-                    <h5 class="text-center text-muted mb-4">St. Mary's Hospital</h5>
+                    <h5 class="text-center text-muted mb-4">Komfo Anothey Teaching Hospital</h5>
                     
                     <?php if (!empty($login_error)): ?>
                         <div class="alert alert-danger" role="alert">

@@ -4,7 +4,7 @@
 <div class="sidebar p-3">
     <div class="text-center mb-4">
         <img src="assets/images/logo.png" alt="Hospital Logo" class="hospital-logo mb-2" />
-        <h5>St. Mary's Hospital</h5>
+        <h5>Komfo Anothey Teaching Hospital</h5>
         <small>Appraisal System</small>
     </div>
     <div class="text-center mb-4">

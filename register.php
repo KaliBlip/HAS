@@ -115,7 +115,7 @@ if ($_POST && isset($_POST['register'])) {
                         <i class="fas fa-hospital text-white fa-2x"></i>
                     </div>
                     <h2 class="text-center mb-2">Staff Registration</h2>
-                    <h5 class="text-center text-muted mb-4">St. Mary's Hospital</h5>
+                    <h5 class="text-center text-muted mb-4">Komfo Anothey Teaching Hospital</h5>
                     
                     <?php if (!empty($error)): ?>
                         <div class="alert alert-danger" role="alert">

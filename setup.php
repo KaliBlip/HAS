@@ -443,7 +443,7 @@ try {
                     <div class="text-center mt-4">
                         <small class="text-muted">
                             <i class="fas fa-shield-alt me-1"></i>
-                            St. Mary's Hospital - Performance Management System<br>
+                            Komfo Anothey Teaching Hospital - Performance Management System<br>
                             Confidential System Setup
                         </small>
                     </div>
